@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sahu Ji Mobile — Smartphones, Accessories & Easy EMI in Vidisha</title>
+<meta name="description" content="Sahu Ji Mobile Shop, Vidisha (MP) — buy the latest smartphones, accessories, mobile repair, recharge and easy EMI finance. Trusted mobile retailer in Vidisha, Madhya Pradesh.">
+<style>
+  :root{
+    --brand:#0E5BD8; --brand-d:#0A46A8; --brand-l:#4F8BF0;
+    --ink:#121A2A; --sub:#5A6577; --line:#E6EBF2; --bg:#F6F8FC; --white:#fff;
+    --accent:#FF7A1A; --accent-d:#E86606; --green:#1FA971; --wa:#25D366;
+    --soft:#EEF4FF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.6}
+  a{text-decoration:none;color:inherit}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:12px;font-weight:700;font-size:15px;cursor:pointer;border:0;transition:.15s}
+  .btn.p{background:var(--brand);color:#fff}
+  .btn.p:hover{background:var(--brand-d)}
+  .btn.o{background:#fff;color:var(--brand);border:1.5px solid var(--brand)}
+  .btn.o:hover{background:var(--soft)}
+  .btn.wa{background:var(--wa);color:#fff}
+  .btn.acc{background:var(--accent);color:#fff}
+  .btn.acc:hover{background:var(--accent-d)}
+
+  /* NAV */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;gap:14px;height:68px}
+  .logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px}
+  .logo .mk{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,var(--brand),var(--brand-l));display:flex;align-items:center;justify-content:center;color:#fff}
+  .logo small{display:block;font-size:11px;font-weight:600;color:var(--sub);letter-spacing:.3px}
+  .navlinks{margin-left:auto;display:flex;gap:26px;align-items:center}
+  .navlinks a{font-size:14.5px;font-weight:600;color:var(--sub)}
+  .navlinks a:hover{color:var(--brand)}
+  .nav-cta{display:flex;gap:8px;align-items:center}
+  @media(max-width:860px){ .navlinks{display:none} }
+
+  /* HERO */
+  .hero{background:linear-gradient(160deg,#0B1C3A 0%,#0E3A8A 55%,#0E5BD8 100%);color:#fff;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(255,122,26,.35),transparent 65%)}
+  .hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:64px 20px 72px}
+  .hero .pill{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);padding:6px 13px;border-radius:30px;font-size:13px;font-weight:600;margin-bottom:18px}
+  .hero h1{font-size:44px;line-height:1.1;font-weight:850;letter-spacing:-.5px}
+  .hero h1 span{color:#FFC48A}
+  .hero p.lead{font-size:17px;color:#D6E2F6;margin:16px 0 26px;max-width:520px}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero .trust{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+  .hero .trust b{font-size:26px;font-weight:850;display:block}
+  .hero .trust span{font-size:12.5px;color:#AFC4E8}
+  .heroCard{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:22px;backdrop-filter:blur(6px)}
+  .heroCard h4{font-size:14px;color:#AFC4E8;font-weight:700;letter-spacing:.4px;text-transform:uppercase;margin-bottom:14px}
+  .heroCard .row{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.14);font-size:14.5px}
+  .heroCard .row:last-child{border:0}
+  .heroCard .ic{width:34px;height:34px;border-radius:9px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  @media(max-width:860px){ .hero .wrap{grid-template-columns:1fr;gap:26px;padding:44px 20px 50px} .hero h1{font-size:33px} }
+
+  /* SECTIONS */
+  section{padding:66px 0}
+  .eyebrow{color:var(--brand);font-weight:800;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;text-align:center}
+  .h2{font-size:32px;font-weight:850;text-align:center;margin:8px 0 10px;letter-spacing:-.4px}
+  .sub{text-align:center;color:var(--sub);max-width:620px;margin:0 auto 42px;font-size:16px}
+
+  .grid{display:grid;gap:18px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:900px){ .g3,.g4{grid-template-columns:repeat(2,1fr)} }
+  @media(max-width:560px){ .g3,.g4{grid-template-columns:1fr} }
+
+  .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;transition:.18s}
+  .card:hover{box-shadow:0 12px 34px rgba(14,91,216,.1);transform:translateY(-3px);border-color:#CFE0FB}
+  .card .ic{width:50px;height:50px;border-radius:13px;background:var(--soft);display:flex;align-items:center;justify-content:center;color:var(--brand);margin-bottom:15px}
+  .card h3{font-size:17.5px;font-weight:800;margin-bottom:7px}
+  .card p{color:var(--sub);font-size:14.5px}
+
+  /* brands */
+  .brands{background:var(--bg)}
+  .brandrow{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+  .brandrow span{background:#fff;border:1px solid var(--line);padding:11px 22px;border-radius:30px;font-weight:800;color:#2A3650;font-size:15px}
+
+  /* why */
+  .why{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  @media(max-width:900px){ .why{grid-template-columns:repeat(2,1fr)} }
+  @media(max-width:520px){ .why{grid-template-columns:1fr} }
+  .why .item{text-align:center;padding:22px 14px}
+  .why .ic{width:56px;height:56px;border-radius:50%;background:var(--soft);color:var(--brand);display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+  .why h4{font-size:16px;font-weight:800;margin-bottom:5px}
+  .why p{color:var(--sub);font-size:14px}
+
+  /* EMI band */
+  .emi{background:linear-gradient(120deg,#FF7A1A,#E86606);color:#fff;border-radius:22px;padding:40px;display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center}
+  .emi h3{font-size:28px;font-weight:850}
+  .emi p{color:#FFE7D4;margin-top:8px;font-size:16px}
+  .emi .right{text-align:right}
+  @media(max-width:720px){ .emi{grid-template-columns:1fr;text-align:center;padding:30px} .emi .right{text-align:center} }
+
+  /* contact */
+  .contact{background:var(--bg)}
+  .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+  @media(max-width:860px){ .cgrid{grid-template-columns:1fr} }
+  .infoCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px}
+  .infoRow{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid var(--line)}
+  .infoRow:last-child{border:0}
+  .infoRow .ic{width:42px;height:42px;border-radius:11px;background:var(--soft);color:var(--brand);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .infoRow b{display:block;font-size:15px}
+  .infoRow span{color:var(--sub);font-size:14.5px}
+  .mapwrap{border-radius:18px;overflow:hidden;border:1px solid var(--line);min-height:320px}
+  .mapwrap iframe{width:100%;height:100%;min-height:360px;border:0;display:block}
+
+  /* footer */
+  footer{background:#0B1526;color:#C4D0E4;padding:46px 0 26px}
+  .fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px;margin-bottom:28px}
+  @media(max-width:760px){ .fgrid{grid-template-columns:1fr} }
+  footer h5{color:#fff;font-size:15px;font-weight:800;margin-bottom:12px}
+  footer a{color:#C4D0E4;font-size:14px;display:block;padding:4px 0}
+  footer a:hover{color:#fff}
+  .ftlogo{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:18px;margin-bottom:12px}
+  .ftlogo .mk{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand-l));display:flex;align-items:center;justify-content:center}
+  .fbot{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;font-size:13px;color:#8A99B5;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .gst{font-size:12.5px;color:#8A99B5;margin-top:8px}
+  svg{display:block}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="logo">
+        <span class="mk"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="3" stroke="#fff" stroke-width="2"/><line x1="10" y1="18" x2="14" y2="18" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span>Sahu Ji Mobile<small>Vidisha, Madhya Pradesh</small></span>
+      </a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#emi">EMI Finance</a>
+        <a href="#brands">Brands</a>
+        <a href="#contact">Visit Us</a>
+      </div>
+      <div class="nav-cta">
+        <a href="tel:+918720060240" class="btn p"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11 11 0 003.4.55 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.3a1 1 0 011 1 11 11 0 00.55 3.4 1 1 0 01-.24 1z" fill="#fff"/></svg>Call Now</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <div class="pill">📍 Serving Vidisha &amp; nearby since years</div>
+      <h1>Vidisha's trusted shop for <span>smartphones &amp; easy EMI</span></h1>
+      <p class="lead">Buy the latest smartphones, accessories and SIM connections — with genuine products, honest prices and easy monthly EMI. New phone or repair, Sahu Ji Mobile has you covered.</p>
+      <div class="cta">
+        <a href="tel:+918720060240" class="btn acc">Call &amp; Enquire</a>
+        <a href="#contact" class="btn o" style="background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.4)">Visit Our Store</a>
+      </div>
+      <div class="trust">
+        <div><b>5,000+</b><span>Happy customers</span></div>
+        <div><b>50+</b><span>Brands &amp; models</span></div>
+        <div><b>Easy</b><span>EMI on the spot</span></div>
+      </div>
+    </div>
+    <div class="heroCard">
+      <h4>Why people choose us</h4>
+      <div class="row"><span class="ic">✅</span> 100% genuine &amp; sealed products</div>
+      <div class="row"><span class="ic">💳</span> Instant EMI &amp; exchange offers</div>
+      <div class="row"><span class="ic">🛠️</span> Fast, reliable mobile repair</div>
+      <div class="row"><span class="ic">🤝</span> Honest advice &amp; after-sales support</div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">About Us</div>
+    <h2 class="h2">Your neighbourhood mobile expert</h2>
+    <p class="sub">Sahu Ji Mobile is a trusted mobile retail shop in Vidisha, Madhya Pradesh. We help families and businesses buy the right phone, stay connected, and get quick service — all under one roof, with prices and advice you can trust.</p>
+    <div class="grid g3">
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="3" stroke="currentColor" stroke-width="2"/><line x1="10" y1="18" x2="14" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <h3>Latest Smartphones</h3>
+        <p>All top brands and newest models in stock — sealed, genuine and ready to take home today.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 10h18M7 15h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3>Easy EMI &amp; Finance</h3>
+        <p>Take your dream phone home on simple monthly instalments with quick, on-the-spot approval.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a4 4 0 00-5.4 5.4l-6 6 2 2 6-6a4 4 0 005.4-5.4l-2.3 2.3-1.4-1.4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+        <h3>Repair &amp; Service</h3>
+        <p>Screen, battery, software and more — fast, dependable repairs by experienced technicians.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="eyebrow">What We Offer</div>
+    <h2 class="h2">Everything mobile, in one shop</h2>
+    <p class="sub">From a brand-new phone to a quick recharge, here's how Sahu Ji Mobile helps you every day.</p>
+    <div class="grid g3">
+      <div class="card"><div class="ic">📱</div><h3>Smartphones &amp; Feature Phones</h3><p>Latest and budget models from every leading brand, at honest prices.</p></div>
+      <div class="card"><div class="ic">🎧</div><h3>Accessories</h3><p>Covers, chargers, earphones, tempered glass, power banks and more.</p></div>
+      <div class="card"><div class="ic">💳</div><h3>EMI &amp; Easy Finance</h3><p>Quick monthly instalment plans with minimal documents.</p></div>
+      <div class="card"><div class="ic">🔁</div><h3>Exchange Offers</h3><p>Trade in your old phone and save big on a new one.</p></div>
+      <div class="card"><div class="ic">🛠️</div><h3>Mobile Repair</h3><p>Screen, battery, charging port and software repairs, done fast.</p></div>
+      <div class="card"><div class="ic">📶</div><h3>Recharge &amp; SIM</h3><p>Mobile recharges, new SIM connections and bill payments.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EMI BAND -->
+<section id="emi">
+  <div class="wrap">
+    <div class="emi">
+      <div>
+        <h3>Take your new phone home today — pay in easy EMI 💳</h3>
+        <p>Low monthly instalments, quick approval and minimal paperwork. Visit the shop or call us to check your EMI eligibility in minutes.</p>
+      </div>
+      <div class="right">
+        <a href="tel:+918720060240" class="btn" style="background:#fff;color:var(--accent-d)">Call for EMI Options</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<section id="brands" class="brands">
+  <div class="wrap">
+    <div class="eyebrow">Brands We Stock</div>
+    <h2 class="h2">All your favourite brands</h2>
+    <p class="sub">We keep a wide range so you always find the right phone for your budget and needs.</p>
+    <div class="brandrow">
+      <span>Samsung</span><span>Apple iPhone</span><span>Vivo</span><span>OPPO</span><span>Realme</span><span>Xiaomi</span><span>OnePlus</span><span>Motorola</span><span>Nokia</span><span>POCO</span>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Why Sahu Ji Mobile</div>
+    <h2 class="h2">Trusted by thousands in Vidisha</h2>
+    <p class="sub">We believe in genuine products, fair prices and service that keeps customers coming back.</p>
+    <div class="why">
+      <div class="item"><div class="ic">✅</div><h4>100% Genuine</h4><p>Sealed, original products with full warranty.</p></div>
+      <div class="item"><div class="ic">₹</div><h4>Honest Prices</h4><p>Fair, transparent pricing — no hidden charges.</p></div>
+      <div class="item"><div class="ic">⚡</div><h4>Quick Service</h4><p>Fast billing, fast EMI, fast repairs.</p></div>
+      <div class="item"><div class="ic">🤝</div><h4>After-Sales Care</h4><p>We're here even after you buy.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="eyebrow">Visit Us</div>
+    <h2 class="h2">Come to the store</h2>
+    <p class="sub">Drop by, call, or message us on WhatsApp — we're happy to help you find the right phone.</p>
+    <div class="cgrid">
+      <div class="infoCard">
+        <div class="infoRow">
+          <span class="ic">📍</span>
+          <div><b>Our Address</b><span>1, Shri Panchmukhi Hanuman Mandir Ke Pass,<br>Khariphatak Road, Vidisha, Madhya Pradesh — 464001</span></div>
+        </div>
+        <div class="infoRow">
+          <span class="ic">📞</span>
+          <div><b>Call / WhatsApp</b><span><a href="tel:+918720060240">+91 87200 60240</a></span></div>
+        </div>
+        <div class="infoRow">
+          <span class="ic">✉️</span>
+          <div><b>Email</b><span><a href="mailto:mailbox@rakshakmdm.com">mailbox@rakshakmdm.com</a></span></div>
+        </div>
+        <div class="infoRow">
+          <span class="ic">🕙</span>
+          <div><b>Shop Hours</b><span>Monday – Sunday: 10:00 AM – 9:00 PM</span></div>
+        </div>
+        <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+          <a href="tel:+918720060240" class="btn p">Call Now</a>
+          <a href="https://wa.me/918720060240" class="btn wa" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+      <div class="mapwrap">
+        <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Khariphatak%20Road%2C%20Vidisha%2C%20Madhya%20Pradesh%20464001&output=embed"
+          title="Sahu Ji Mobile location, Vidisha"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="ftlogo"><span class="mk"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="3" stroke="#fff" stroke-width="2"/><line x1="10" y1="18" x2="14" y2="18" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></span>Sahu Ji Mobile</div>
+        <p style="font-size:14px;max-width:320px">Vidisha's trusted mobile shop for smartphones, accessories, repairs and easy EMI finance.</p>
+        <p class="gst">GSTIN: 23NMIPS8825Q2ZS</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#emi">EMI Finance</a>
+        <a href="#brands">Brands</a>
+      </div>
+      <div>
+        <h5>Reach Us</h5>
+        <a href="tel:+918720060240">+91 87200 60240</a>
+        <a href="mailto:mailbox@rakshakmdm.com">mailbox@rakshakmdm.com</a>
+        <a href="#contact">Khariphatak Road, Vidisha (MP)</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© <span id="yr"></span> Sahu Ji Mobile, Vidisha. All rights reserved.</span>
+      <span>Smartphones · Accessories · Repair · EMI</span>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
